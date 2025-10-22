@@ -22,7 +22,7 @@ public class TC001 {
 		WebElement search=driver.findElement(By.id("APjFqb"));
 		if(search.isDisplayed())
 		{
-		search.sendKeys(Keys.SPACE);
+		//search.sendKeys(Keys.SPACE);
 		search.sendKeys(Keys.TAB);
 		}
 	/*
