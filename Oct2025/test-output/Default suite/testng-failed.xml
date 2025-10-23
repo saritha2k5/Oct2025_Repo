@@ -3,13 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="pac1.TC008_TestNG2_Excel">
+      <class name="com.ajio.tests.loginajio">
         <methods>
-          <include name="afterMethod"/>
-          <include name="beforeMethod"/>
-          <include name="f" invocation-numbers="1 2"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="verifylogin"/>
+          <include name="setupreport"/>
+          <include name="flushreport"/>
         </methods>
-      </class> <!-- pac1.TC008_TestNG2_Excel -->
+      </class> <!-- com.ajio.tests.loginajio -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
