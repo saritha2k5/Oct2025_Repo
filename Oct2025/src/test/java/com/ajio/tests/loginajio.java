@@ -18,17 +18,18 @@ public class loginajio extends BaseTest{
 	
 	
 	@Test(dataProvider="logindata")
-	public void verifylogin(String username,String password) throws IOException
+	public void verifylogin(String username,String password) throws IOException, InterruptedException
 	
 	{
-		navigateurl("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
+		navigateurl("https:\\google.com");
+		Thread.sleep(3000);
 		test=extent.createTest("login with the user:"+username);
 		
 		loginpage obj=new loginpage(driver);
 		
 		String title=driver.getTitle();
 		System.out.println("title;"+title);
-		if(title.equalsIgnoreCase("OrangeHR"))
+		if(title.equalsIgnoreCase("gogle"))
 		{
 			test.pass("title is matched");
 			System.out.println("pass");
