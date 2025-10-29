@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-10-23T12:49:33 IST" name="Suite" finished-at="2025-10-23T12:49:54 IST" duration-ms="21342">
+  <suite started-at="2025-10-23T16:28:06 IST" name="Suite" finished-at="2025-10-23T16:28:28 IST" duration-ms="21829">
     <groups>
     </groups>
-    <test started-at="2025-10-23T12:49:33 IST" name="Test" finished-at="2025-10-23T12:49:54 IST" duration-ms="21342">
+    <test started-at="2025-10-23T16:28:06 IST" name="Test" finished-at="2025-10-23T16:28:28 IST" duration-ms="21829">
       <class name="com.ajio.tests.loginajio">
-        <test-method is-config="true" signature="setupreport()[pri:0, instance:com.ajio.tests.loginajio@74d1dc36]" started-at="2025-10-23T12:49:32 IST" name="setupreport" finished-at="2025-10-23T12:49:33 IST" duration-ms="193" status="PASS">
+        <test-method is-config="true" signature="setupreport()[pri:0, instance:com.ajio.tests.loginajio@74d1dc36]" started-at="2025-10-23T16:28:05 IST" name="setupreport" finished-at="2025-10-23T16:28:06 IST" duration-ms="363" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupreport -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.ajio.tests.loginajio@74d1dc36]" started-at="2025-10-23T12:49:33 IST" name="setup" finished-at="2025-10-23T12:49:36 IST" duration-ms="2381" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ajio.tests.loginajio@74d1dc36]" started-at="2025-10-23T16:28:06 IST" name="setup" finished-at="2025-10-23T16:28:09 IST" duration-ms="2618" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifylogin(java.lang.String,java.lang.String)[pri:0, instance:com.ajio.tests.loginajio@74d1dc36]" started-at="2025-10-23T12:49:36 IST" name="verifylogin" data-provider="logindata" finished-at="2025-10-23T12:49:41 IST" duration-ms="5110" status="PASS">
+        <test-method signature="verifylogin(java.lang.String,java.lang.String)[pri:0, instance:com.ajio.tests.loginajio@74d1dc36]" started-at="2025-10-23T16:28:09 IST" name="verifylogin" data-provider="logindata" finished-at="2025-10-23T16:28:13 IST" duration-ms="3688" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -31,15 +31,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifylogin -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ajio.tests.loginajio@74d1dc36]" started-at="2025-10-23T12:49:41 IST" name="teardown" finished-at="2025-10-23T12:49:41 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ajio.tests.loginajio@74d1dc36]" started-at="2025-10-23T16:28:13 IST" name="teardown" finished-at="2025-10-23T16:28:13 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.ajio.tests.loginajio@74d1dc36]" started-at="2025-10-23T12:49:41 IST" name="setup" finished-at="2025-10-23T12:49:42 IST" duration-ms="1005" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ajio.tests.loginajio@74d1dc36]" started-at="2025-10-23T16:28:13 IST" name="setup" finished-at="2025-10-23T16:28:14 IST" duration-ms="1388" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifylogin(java.lang.String,java.lang.String)[pri:0, instance:com.ajio.tests.loginajio@74d1dc36]" started-at="2025-10-23T12:49:42 IST" name="verifylogin" data-provider="logindata" finished-at="2025-10-23T12:49:47 IST" duration-ms="4771" status="PASS">
+        <test-method signature="verifylogin(java.lang.String,java.lang.String)[pri:0, instance:com.ajio.tests.loginajio@74d1dc36]" started-at="2025-10-23T16:28:14 IST" name="verifylogin" data-provider="logindata" finished-at="2025-10-23T16:28:20 IST" duration-ms="6020" status="PASS">
           <params>
             <param index="0">
               <value is-null="true"/>
@@ -51,15 +51,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifylogin -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ajio.tests.loginajio@74d1dc36]" started-at="2025-10-23T12:49:47 IST" name="teardown" finished-at="2025-10-23T12:49:47 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ajio.tests.loginajio@74d1dc36]" started-at="2025-10-23T16:28:20 IST" name="teardown" finished-at="2025-10-23T16:28:20 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.ajio.tests.loginajio@74d1dc36]" started-at="2025-10-23T12:49:47 IST" name="setup" finished-at="2025-10-23T12:49:48 IST" duration-ms="1526" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ajio.tests.loginajio@74d1dc36]" started-at="2025-10-23T16:28:20 IST" name="setup" finished-at="2025-10-23T16:28:22 IST" duration-ms="2151" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifylogin(java.lang.String,java.lang.String)[pri:0, instance:com.ajio.tests.loginajio@74d1dc36]" started-at="2025-10-23T12:49:48 IST" name="verifylogin" data-provider="logindata" finished-at="2025-10-23T12:49:54 IST" duration-ms="5823" status="PASS">
+        <test-method signature="verifylogin(java.lang.String,java.lang.String)[pri:0, instance:com.ajio.tests.loginajio@74d1dc36]" started-at="2025-10-23T16:28:22 IST" name="verifylogin" data-provider="logindata" finished-at="2025-10-23T16:28:28 IST" duration-ms="5300" status="PASS">
           <params>
             <param index="0">
               <value is-null="true"/>
@@ -71,11 +71,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifylogin -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ajio.tests.loginajio@74d1dc36]" started-at="2025-10-23T12:49:54 IST" name="teardown" finished-at="2025-10-23T12:49:54 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ajio.tests.loginajio@74d1dc36]" started-at="2025-10-23T16:28:28 IST" name="teardown" finished-at="2025-10-23T16:28:28 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="flushreport()[pri:0, instance:com.ajio.tests.loginajio@74d1dc36]" started-at="2025-10-23T12:49:54 IST" name="flushreport" finished-at="2025-10-23T12:49:54 IST" duration-ms="438" status="PASS">
+        <test-method is-config="true" signature="flushreport()[pri:0, instance:com.ajio.tests.loginajio@74d1dc36]" started-at="2025-10-23T16:28:28 IST" name="flushreport" finished-at="2025-10-23T16:28:28 IST" duration-ms="708" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- flushreport -->
